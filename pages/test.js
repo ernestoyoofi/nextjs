@@ -32,8 +32,7 @@ export default function Home() {
         <a
           href="https://github.com/ernestoyoofi/nextjs"
           target="_blank"
-          rel="noopener noreferrer" 
-          style="text-align: center;"
+          rel="noopener noreferrer"
         >
         Ernestoyoofi Test Next JS
         </a>
