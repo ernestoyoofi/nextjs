@@ -6,7 +6,7 @@ export default function Home() {
   return (
     <div className={styles.container}>
       <Head>
-        <title>Test Next JS</title>
+        <title>Test</title>
         <meta name="description" content="Test Next JS" />
         <link rel="icon" href="https://f-ernestoyoofi.vercel.app/file/ernestoyoofi/94425296%20(1).jpeg" />
       </Head>
