@@ -17,7 +17,7 @@ export default function Page() {
   return (
   <div>
       <Head>
-          <title>Ernesto Studio Community, Inc.<</title>
+          <title>Ernesto Studio Community, Inc.</title>
           <link rel="icon" href="https://discord.gg/assets/ec2c34cadd4b5f4594415127380a85e6.ico"/>
           <meta name="description" content="Check out the Ernesto Studio Community, Inc. community on Discord - hang out with 43 other members and enjoy free voice and text chat." />
           <meta name="twitter:title" content="Ernesto Studio Community, Inc." />
