@@ -18,17 +18,17 @@ export default function Page() {
   return (
   <div>
       <Head>
-          <title>Dukung ernestoyoofi | Saweria</title>
+          <title>Dukung ernestoyoofi via saweria</title>
           <link rel="icon" href="/saweria.png"/>
           <meta name="description" content="Dukung Aku Dengan Donasi Yuk" />
-          <meta name="twitter:title" content="Dukung ernestoyoofi | Saweria" />
+          <meta name="twitter:title" content="Dukung ernestoyoofi via saweria" />
           <meta name="twitter:description" content="Dukung Aku Dengan Donasi Yuk" />
           <meta name="twitter:image" content="https://saweria.co/twitter_card.png" />
-          <meta name="twitter:url" content="https://saweria.co/ernestoyoofi" />
-          <meta property="og:title" content="Dukung ernestoyoofi | Saweria" />
+          <meta name="twitter:url" content="https://saweria-co.ernestoyoofi.deploy.id/saweria" />
+          <meta property="og:title" content="Dukung ernestoyoofi via saweria" />
           <meta property="og:description" content="Dukung Aku Dengan Donasi Yuk" />
           <meta property="og:image" content="https://saweria.co/twitter_card.png" />
-          <meta property="og:url" content="https://saweria.co/ernestoyoofi" />
+          <meta property="og:url" content="https://saweria-co.ernestoyoofi.deploy.id/saweria" />
       </Head>
       <body>
           Reading....
