@@ -11,7 +11,7 @@ export default function Page() {
 
   useEffect(() => {
     if (!(user || loading)) {
-      router.push('https://trakteer.id/rnestoyoofi')
+      router.push('https://trakteer.id/ernestoyoofi')
     }
   }, [user, loading])
 
