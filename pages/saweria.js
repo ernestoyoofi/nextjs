@@ -20,8 +20,9 @@ export default function Page() {
       <Head>
           <title>Dukung ernestoyoofi | Saweria</title>
           <link rel="icon" href="/saweria.png"/>
-          <meta name="description" content="Dukung Aku Dengan Donasi Yuk"/>
-          <meta property="og:url" content="saweria.co" />
+          <meta name="description" content="Never Gonna Give Your Up" />
+          <meta property="og:description" content="Never Gonna Give Your Up" />
+          <meta property="og:url" content="https://saweria.co/ernestoyoofi" />
       </Head>
       <body>
           Reading....
