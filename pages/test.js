@@ -1,42 +1,38 @@
 import Head from 'next/head'
 import Image from 'next/image'
-import styles from '../styles/Home.module.css'
+import { useRouter } from "next/router"
+import Script from 'next/script'
+import style from '../styles/Home.module.css'
 
 export default function Home() {
+  const router = useRouter();
+  
+  const navbarclose = () => {
+    document.getElementById("navbar").style.marginLeft = "-320px"
+  };
+  const navbaropen = () => {
+    document.getElementById("navbar").style.marginLeft = "0px"
+  };
   return (
-    <div className={styles.container}>
+    <div>
       <Head>
-        <title>Test</title>
-        <meta name="description" content="Test Next JS" />
-        <link rel="icon" href="https://f-ernestoyoofi.vercel.app/file/ernestoyoofi/94425296%20(1).jpeg" />
+        <title>Spesana - Beranda</title>
+        <meta name="description" content="Website Resmi Siswa Siswi SMPN 1 Nanggulan, Karya Anak Spesana, Inc."/>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/js/all.min.js"></script>
       </Head>
-
-      <main className={styles.main}>
-        <h1 className={styles.title}>
-          Welcome to Test Next JS! 
-        </h1>
-
-        <p className={styles.description}>
-            Eee, Aowaowkaowakwk, Test Doang
-        </p>
-
-        <div className={styles.grid}>
-          <a href="https://nextjs.org/docs" className={styles.card}>
-            <h2>Documentation &rarr;</h2>
-            <p>Repository Next JS</p>
-          </a>
+      <main>
+        <div className={style.nav_left} id="navbar">
+          <span className={style.nav_btn} onClick={() => navbarclose()}><i class="fa-solid fa-angle-left"></i></span>
+          <a href="/">Beranda</a>
+          <a href="/gallery">Gallery</a>
+          <a href="/karya">Karya</a>
+          <a href="/docs">Dokument</a>
+          <a href="/buku">Buku</a>
         </div>
+        <nav>
+          <span onClick={() => navbaropen()}>Open</span>
+        </nav>
       </main>
-
-      <footer className={styles.footer}>
-        <a
-          href="https://github.com/ernestoyoofi/nextjs"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-        Ernestoyoofi Test Next JS
-        </a>
-      </footer>
     </div>
   )
 }
