@@ -3,6 +3,8 @@ import Image from 'next/image'
 import { useRouter } from "next/router"
 import Script from 'next/script'
 import style from '../styles/Home.module.css'
+import { faHome } from "@fortawesome/free-solid-svg-icons";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 export default function Home() {
   const router = useRouter();
@@ -18,11 +20,10 @@ export default function Home() {
       <Head>
         <title>Spesana - Beranda</title>
         <meta name="description" content="Website Resmi Siswa Siswi SMPN 1 Nanggulan, Karya Anak Spesana, Inc."/>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/js/all.min.js"></script>
       </Head>
       <main>
         <div className={style.nav_left} id="navbar">
-          <span className={style.nav_btn} onClick={() => navbarclose()}><i class="fa-solid fa-angle-left"></i></span>
+          <span className={style.nav_btn} onClick={() => navbarclose()}>Close</span>
           <a href="/">Beranda</a>
           <a href="/gallery">Gallery</a>
           <a href="/karya">Karya</a>
@@ -31,6 +32,7 @@ export default function Home() {
         </div>
         <nav>
           <span onClick={() => navbaropen()}>Open</span>
+          <FontAwesomeIcon icon={faHome} />
         </nav>
       </main>
     </div>
