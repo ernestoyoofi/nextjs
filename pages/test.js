@@ -24,11 +24,6 @@ export default function Home() {
       <main>
         <div className={style.nav_left} id="navbar">
           <span className={style.nav_btn} onClick={() => navbarclose()}>Close</span>
-          <a href="/">Beranda</a>
-          <a href="/gallery">Gallery</a>
-          <a href="/karya">Karya</a>
-          <a href="/docs">Dokument</a>
-          <a href="/buku">Buku</a>
         </div>
         <nav>
           <span onClick={() => navbaropen()}>Open</span>
