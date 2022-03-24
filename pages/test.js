@@ -19,7 +19,7 @@ export default function Home() {
     <div>
       <Head>
         <title>Spesana - Beranda</title>
-        <meta name="description" content="Website Resmi Siswa Siswi SMPN 1 Nanggulan, Karya Anak Spesana, Inc."/>
+        <meta name="description" content="Website Resmi Siswa Siswi SMPN 1 Nanggulan, Karya Anak Spesana,"/>
       </Head>
       <main>
         <div className={style.nav_left} id="navbar">
